@@ -11,6 +11,8 @@
   /* Size */
   --font-medium: 500;
   --font-bold: 700;
+  /* Etc */
+  --border-radius: 8px;
 }
 
 body {
@@ -42,6 +44,7 @@ body {
   font-size: 1.5rem;
   padding: 0.5em;
   margin: 0 0.3rem;
+  border-radius: var(--border-radius);
 }
 
 .img-btn img {
@@ -80,7 +83,7 @@ body {
   font-size: var(--font-regular);
   font-weight: var(--font-medium);
   text-align: left;
-  border-radius: 8px;
+  border-radius: var(--border-radius);
   background-color: var(--color-white);
 }
 
