@@ -29,6 +29,14 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.logo img {
+  transition: transform 300ms ease;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
 .category {
   display: flex;
   justify-content: space-around;
@@ -45,6 +53,11 @@ body {
   padding: 0.5em;
   margin: 0 0.3rem;
   border-radius: var(--border-radius);
+  transition: transform 300ms ease;
+}
+
+.category button:hover {
+  transform: rotate(10deg);
 }
 
 .img-btn img {
@@ -86,6 +99,11 @@ body {
   text-align: left;
   border-radius: var(--border-radius);
   background-color: var(--color-white);
+  transition: transform 300ms ease;
+}
+
+.list-item:hover {
+  transform: scale(0.98);
 }
 
 .list-item img {
