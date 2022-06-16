@@ -15,7 +15,7 @@ const items = [];
 loadItems();
 
 function loadItems() {
-    fetch('/data/data.json')
+    fetch('https://raw.githubusercontent.com/ohrenejs/shopping-mall/main/data/data.json')
         .then(response => response.json())
         .then(data => {
             const itemList = data.items;
